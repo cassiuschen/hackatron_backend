@@ -27,6 +27,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'rails-admin'
 gem 'rack-utf8_sanitizer'
 
+gem 'rack-cors'
 gem 'ruby-pinyin'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
