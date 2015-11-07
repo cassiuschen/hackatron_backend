@@ -20,8 +20,6 @@ module Api
         ActionController::ImplicitRender,
         ActionController::StrongParameters,
 
-        ActionController::ForceSSL,
-
         # Before callbacks should also be executed the earliest as possible, so
         # also include them at the bottom.
         AbstractController::Callbacks,
@@ -37,8 +35,6 @@ module Api
         # properly showed in logs
         ActionController::ParamsWrapper,
 
-        Doorkeeper::Helpers::Filter,
-        Devise::Controllers::Helpers,
         Rails.application.routes.url_helpers
     ]
 
