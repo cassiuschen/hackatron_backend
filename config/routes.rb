@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
   namespace :api, defaults: {format: :json} do
-    
+    get '/random' => 'sentences#random'
   end
 
   namespace :wechat do
