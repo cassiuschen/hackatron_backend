@@ -29,6 +29,6 @@ class Sentence
       end
     end
 
-    return (1 - dif.last.last.to_f / [self.pinyin.length, str.length].max)
+    return (1.00000 - dif.last.last.to_f / [self.pinyin.length, str.length].max) * 100
   end
 end
